@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for the personal rclone-backup configuration.">
+  <title>Privacy Policy — rclone-backup</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { max-width: 760px; margin: 4rem auto; padding: 0 1.25rem; line-height: 1.65; color: #17212d; }
+    h1, h2 { line-height: 1.25; } a { color: #1557a8; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="index.html">← rclone-backup home</a></p>
+    <h1>Privacy Policy</h1>
+    <p><strong>Last updated:</strong> 13 November 2026</p>
+    <p><strong>rclone-backup</strong> is a personal, privately operated server backup configuration. It is not offered as a public service.</p>
+    <h2>Google user data and access</h2>
+    <p>The server operator authorizes rclone to access their Google Drive in order to upload, list, download and remove backup files, and to maintain backup retention. The requested Drive permission may allow access to other files in that Google account; the operator controls the configuration and the authorization.</p>
+    <h2>How backup data is used and stored</h2>
+    <p>Restic creates and encrypts backups on the operator's server before rclone transfers the encrypted repository to the operator's Google Drive. Backup data is used for the operator's own recovery and retention purposes. The Google Drive access token and refresh token are stored in rclone's configuration on the server, with access limited by the server operator.</p>
+    <h2>Sharing and service providers</h2>
+    <p>Backup files are stored with Google Drive. The server hosting provider processes the server infrastructure, and this informational website is hosted by GitHub Pages. These pages do not receive Google credentials or backup data. Any sharing separately configured by the operator in Google Drive is governed by that account's settings.</p>
+    <h2>Retention and revocation</h2>
+    <p>Backup versions are retained or deleted according to the operator's backup settings. The operator can revoke access through Google Account permissions. Revoking access stops new uploads until access is authorized again; it does not automatically delete existing backups.</p>
+    <h2>Contact</h2>
+    <p>The operator can be contacted using the support email shown on the Google authorization consent screen.</p>
+  </main>
+</body>
+</html>
